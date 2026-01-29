@@ -1,8 +1,9 @@
+import 'package:dice_roller/centered_text.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
 
-  GradientContainer({super.key});
+  const GradientContainer({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,13 +19,7 @@ class GradientContainer extends StatelessWidget {
             ),
           ),
           child: Center(
-            child: Text(
-              'Hello, World!',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 38
-                ),
-            ),
+            child: CenteredText(text: 'Gradient Container'),
           ),
         );
   }
