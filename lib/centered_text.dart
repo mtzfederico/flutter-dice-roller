@@ -7,6 +7,8 @@ class CenteredText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(text, style: TextStyle(color: Colors.white, fontSize: 38));
+    return Center(
+      child: Text(text, style: TextStyle(color: Colors.white, fontSize: 38)),
+    );
   }
 }

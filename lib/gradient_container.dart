@@ -18,9 +18,7 @@ class GradientContainer extends StatelessWidget {
               end: Alignment.bottomRight,
             ),
           ),
-          child: Center(
-            child: CenteredText(text: 'Gradient Container'),
-          ),
+          child:  CenteredText(text: 'Gradient Container'),
         );
   }
 }
