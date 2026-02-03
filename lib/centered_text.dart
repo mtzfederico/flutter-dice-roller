@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CenteredText extends StatelessWidget {
-  final String text;
+  CenteredText(this.text, {super.key});
 
-  const CenteredText({super.key, required this.text});
+  String text;
 
   @override
   Widget build(BuildContext context) {

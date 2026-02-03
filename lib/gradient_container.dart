@@ -5,6 +5,9 @@ class GradientContainer extends StatelessWidget {
 
   const GradientContainer({super.key});
 
+  final Alignment startAlignment = Alignment.topLeft;
+  final endAlignment = Alignment.bottomRight;
+
   @override
   Widget build(BuildContext context) {
     return  Container(
@@ -14,11 +17,11 @@ class GradientContainer extends StatelessWidget {
                 Color.fromARGB(255, 63, 8, 165),
                 Color.fromARGB(255, 12, 1, 39),
               ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+              begin: startAlignment,
+              end: endAlignment,
             ),
           ),
-          child:  CenteredText(text: 'Gradient Container'),
+          child: CenteredText('Hello World'),
         );
   }
 }
