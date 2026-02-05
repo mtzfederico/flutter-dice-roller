@@ -1,6 +1,6 @@
 # dice_roller
 
-A new Flutter project.
+Dice roller app for ITEC-315
 
 ## Getting Started
 
