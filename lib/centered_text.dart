@@ -4,11 +4,10 @@ class CenteredText extends StatelessWidget {
   CenteredText(this.text, {super.key});
 
   String text;
-
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text(text, style: TextStyle(color: Colors.white, fontSize: 38)),
+      child: Text(style: TextStyle(color: Colors.white, fontSize: 28), text),
     );
   }
 }
